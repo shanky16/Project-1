@@ -192,8 +192,10 @@ GEM
     pg (1.2.2-x86-mingw32)
     powerpack (0.1.2)
     public_suffix (4.0.3)
-    puma (3.12.2)
-    puma (3.12.2-java)
+    puma (4.3.3)
+      nio4r (~> 2.0)
+    puma (4.3.3-java)
+      nio4r (~> 2.0)
     pundit (2.1.0)
       activesupport (>= 3.0.0)
     rack (2.2.2)
@@ -352,7 +354,7 @@ DEPENDENCIES
   omniauth-github
   paperclip!
   pg
-  puma (~> 3.0)
+  puma (~> 4.3)
   pundit
   rails (~> 5.0.2)
   rails_12factor
